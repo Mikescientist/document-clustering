@@ -179,7 +179,7 @@ model.save('/home/mike/doc2vec.model')
 
 # ## Exploring the model
 
-# We can for example throw some phrases into our trained model. This infers a vector which can be compared to
+''' We can for example throw some phrases into our trained model. This infers a vector which can be compared to
 the vectors already in the model. Below is a simple example where we insert the phrase 
 "property investment management" into the model and see which 5 descriptions are most similar. 
 The top result gives "principal activity is that of property investment and management." which is a nice 
